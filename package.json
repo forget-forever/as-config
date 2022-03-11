@@ -1,0 +1,12 @@
+{
+  "name": "as-config",
+  "version": "1.0.1",
+  "description": "auto-servers脚手架的辅助配置文件",
+  "main": "index.js",
+  "repository": "https://github.com/forget-forever/as-config.git",
+  "author": "zml",
+  "license": "MIT",
+  "dependencies": {
+    "@types/json-schema": "^7.0.9"
+  }
+}
