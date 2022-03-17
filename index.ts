@@ -1,7 +1,7 @@
 /*
  * @Author: zml
  * @Date: 2022-03-11 19:14:52
- * @LastEditTime: 2022-03-17 13:54:37
+ * @LastEditTime: 2022-03-17 14:01:48
  */
 import { ApiDetail } from "./detailType"
 
@@ -56,7 +56,7 @@ export type AsConfig = {
   /** 生成请求的目录 */
   outPath?: string,
   /** 生成的方法模版` */
-  serviceTemplate?: (api: ConfigApi) => string,
+  serviceTemplate?: ((api: ConfigApi) => string) | string,
   /** 类型文件中引入的module */
   importTypeModel?: string[],
   /** 返回的参数解析类型的节点，默认是data节点开始解析 */

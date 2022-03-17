@@ -49,7 +49,7 @@ export declare type AsConfig = {
     /** 生成请求的目录 */
     outPath?: string;
     /** 生成的方法模版` */
-    serviceTemplate?: (api: ConfigApi) => string;
+    serviceTemplate?: ((api: ConfigApi) => string) | string;
     /** 类型文件中引入的module */
     importTypeModel?: string[];
     /** 返回的参数解析类型的节点，默认是data节点开始解析 */
